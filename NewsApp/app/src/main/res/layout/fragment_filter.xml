@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FilterFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATEGORIES"
+        android:textSize="36dp"
+        android:textColor="#E13131"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/button_general"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="GENERAL"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="7dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button_business"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="BUSINESS"
+        android:textColor="@color/white"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button_science"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:text="SCIENCE"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_health"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="HEALTH"
+        android:textColor="@color/white"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/button_sports"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="SPORTS"
+        android:textColor="@color/white"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+
+</LinearLayout>
